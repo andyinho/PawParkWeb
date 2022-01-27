@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <title>PawPark</title>
+</head>
+
+<body>
+
+  <!-- Search Section -->
+
+  <section id="welcome">
+
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Paw<span>Park</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#parks">Parks</a>
+              <a class="nav-link" href="#more">More</a>
+              <a class="nav-link" href="#footer">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="background-image">
+      <h1 class="welcome-description">Find their next playground</h1>
+      <form class="d-flex justify-content-center">
+        <input class="form-control me-2" type="search" placeholder="Parks nearby" aria-label="Search">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+
+  <section id="about">
+
+    <div class="contain">
+
+      <div class="row">
+        <div class="col-md-5 text-center">
+          <img class="img-fluid" src="images/pawpark.png" alt="iphone-image">
+        </div>
+
+        <div class="information col-md-7 text-center">
+          <div class="playground">
+            <i class="marker-about fas fa-map-marker-alt fa-4x"></i>
+            <h3>Discover new playgrounds</h3>
+            <p class="tag-lines">Visit parks, stores, and more</p>
+          </div>
+          <div class="vets">
+            <i class="aid-about fas fa-first-aid fa-4x"></i>
+            <h3>Keep your loved ones safe</h3>
+            <p class="tag-lines">Find veterinary clinics nearby</p>
+          </div>
+          <div class="showcase">
+            <i class="paw-about fas fa-paw fa-4x"></i>
+            <h3>Showcase your furry friends</h3>
+            <p class="tag-lines">Have your pets featured on PawPark</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Parks Section -->
+
+  <section id="parks">
+
+    <h1 class="parks-title">Most Visited Parks</h1>
+
+    <div class="park-cards row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100 border-light">
+          <a href="https://www.yelp.com/biz/wilshire-park-portland?osq=wilshire+park" target="_blank"><img src="images/wilshire.jpg" class="card-img-top" alt="wilshire-park"></a>
+          <div class="card-body">
+            <h5 class="card-title">Wilshire Park</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-light">
+          <a href="https://www.yelp.com/biz/fernhill-park-portland" target="_blank"><img src="images/fernhill.jpg" class="card-img-top" alt="fernhill-park"></a>
+          <div class="card-body">
+            <h5 class="card-title">Fernhill Park</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-light">
+          <a href="https://www.google.com/search?q=Irving+Park+Dog+Park&rlz=1C5CHFA_enUS726US727&biw=1366&bih=657&tbm=lcl&sxsrf=AOaemvJarEFw1xZUGr6ZdLX1-a7zevna0A%3A1642716932881&ei=BN_pYeSYNYPX0PEP_oetiAk&oq=Irving+Park+Dog+Park&gs_l=psy-ab.3..0i512i457k1j0i22i30k1l2j38j0i390i395k1l3.18104.18313.0.19157.2.2.0.0.0.0.93.93.1.1.0..1..0...1c.1j2.64.psy-ab..1.1.93.0...0.SeiK3WxYAPY#rlfi=hd:;si:6795905366879292925;mv:[[45.54704587731903,-122.65692760908779],[45.546685922680965,-122.65744159091221]]"
+            target="_blank"><img src="images/irvine.jpg" class="card-img-top" alt="irvine-park"></a>
+          <div class="card-body">
+            <h5 class="card-title">Irving Park</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-light">
+          <a href="https://www.yelp.com/biz/mt-tabor-off-leash-dog-park-portland?osq=tabor+park" target="_blank"><img src="images/tabor.jpg" class="card-img-top" alt="tabor-park"></a>
+          <div class="card-body">
+            <h5 class="card-title">Mt. Tabor Park</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-light">
+          <a href="https://www.yelp.com/biz/wallace-park-portland?osq=irvine+dog+park" target=" _blank"><img src="images/wallace.jpg" class="card-img-top" alt="walllace-park"></a>
+          <div class="card-body">
+            <h5 class="card-title">Wallace Dog Park</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-light">
+          <a href="https://www.yelp.com/biz/1000-acre-dog-park-troutdale" target="_blank"><img src="images/1000.jpg" class="card-img-top" alt="1000-acre-park"></a>
+          <div class="card-body">
+            <h5 class="card-title">1000 Acre Park</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- More Section -->
+
+  <section id="more">
+
+    <div class="ruff">
+
+      <h1 class="ruff-title">Park+</h1>
+      <a href="#">
+        <i class="aid-more fas fa-first-aid fa-9x"></i>
+      </a>
+      <p class="more-description">Need more assitance with your pets? We've got you covered. Discover popular veterinaries and stores near you in the case of unexpected events. It's simple, fast, and free.</p>
+    </div>
+
+    <div class="pup">
+      <h1 class="pup-title">Pet Showcase</h1>
+      <a href="#">
+        <i class="paw-more fas fa-paw fa-9x"></i>
+      </a>
+      <p class="more-description">Got a pet you want to show off? Let us share them with the world. Send in a picture of your furry friend and tell us a little bit about them. We'll choose a new pet every month.</p>
+    </div>
+
+  </section>
+
+  <footer id="footer">
+
+    <a href="#"><i class="cr-logos fab fa-instagram fa-1x"></i></a>
+    <a href="#"><i class="cr-logos fab fa-twitter fa-1x"></i></a>
+    <a href="#"><i class="cr-logos fas fa-envelope fa-1x"></i></a>
+
+    <p class="copy-right">© 2022 PawPark , LLC. All right reserved.</p>
+
+  </footer>
+
+</body>
+
+</html>

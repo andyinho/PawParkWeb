@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+}
+
+/* NAVBAR */
+
+span {
+  color: #4AA96C;
+}
+
+i {
+  padding: 15px 0;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25rem;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .2rem;
+}
+
+/* SEARCH SECTION */
+
+.background-image {
+  background-image: url('../images/beagle.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.welcome-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 7%;
+  padding: 15% 0 4% 0;
+
+}
+
+.d-flex {
+  margin-top: 80px;
+  padding-bottom: 200px;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.btn-light:hover {
+  background-color: #198754;
+  color: #fff;
+  border-color: #198754;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  background-color: #212529;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* controls sizing of img as viewport is changed / reduced */
+.img-fluid {
+  margin: 20% 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .img-fluid {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+.col-md-5, .col-md-7 {
+  padding: 0;
+  color: #fff;
+}
+
+.playground, .vets, .showcase {
+  padding: 15px 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.information {
+  margin: auto;
+}
+
+.tag-lines {
+  color: #8f8f8f;
+}
+
+/* font awesome icons */
+
+.marker-about {
+  color: #FF6464;
+}
+
+.marker-about:hover {
+  color: #FF0000;
+}
+
+.aid-about {
+  color: #91C483;
+}
+
+.aid-about:hover {
+  color: #49FF00;
+}
+
+.paw-about {
+  color: #FFF9B6;
+}
+
+.paw-about:hover {
+  color: #FBFF00;
+}
+
+/* PARKS SECTION */
+
+#parks {
+  background-color: rgb(237, 237, 237);
+}
+
+.parks-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  padding: 60px  20px 0;
+}
+
+.park-cards {
+  padding: 2% 5%;
+}
+
+.col {
+  padding: 25px;
+}
+
+.card-text {
+  line-height: 1.5;
+}
+
+/* MORE SECTION */
+
+#more {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 993px) {
+  #more {
+    display: block;
+
+  }
+}
+
+.ruff {
+flex: 1;
+padding: 5%;
+}
+
+.pup {
+  background-color: #212529;
+  flex: 1;
+  padding: 5%;
+}
+
+.ruff-title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 3.5rem;
+}
+
+.pup-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  color: #fff;
+  text-align: left;
+}
+
+.aid-more {
+  color: #91C483;
+  float: right;
+  padding: 0;
+  margin: 0 18px 0 18px;
+}
+
+.paw-more {
+  color: #FFF9B6;
+  float: right;
+  padding: 0;
+  margin: 0 18px 0 18px;
+}
+
+.more-description {
+  color: #8f8f8f;
+  text-align: left;
+  line-height: 2;
+  font-size: 1.4rem;
+}
+
+/* Footer */
+
+#footer {
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  margin: 0;
+}
+
+.cr-logos {
+  margin: 2.2% 5%;
+  color: #212529;
+}
+
+.copy-right {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 1% 0;
+  opacity: 0.5;
+}
