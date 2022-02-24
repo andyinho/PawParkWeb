@@ -2,7 +2,7 @@
 
 PawPark is a website designed to help pet owners find parks, stores, and additional services.
 
-## Usage
+## Features
 
 ### Parks
 
@@ -23,6 +23,10 @@ Request to have pets featured on the Pets+ homepage.
 New pets are chosen every month. Past featured pets will be displayed the 'recently featured' section
 
 Pets can be of any breed, type, and animal.
+
+## Usage
+
+Made to be responsive on all devices (desktop, laptop, tablet, mobile).
 
 ## Contributing
 
